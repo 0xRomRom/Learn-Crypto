@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Ubuntu:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+
+  /* Navbar Start */
+}
+button {
+  border: none;
+  background: none;
+}
+.brand {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 15px;
+  top: 15px;
+}
+
+.brand:hover {
+  transition: all 0.5s ease 0s;
+  height: 55px;
+  width: 55px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Im Fell English SC", sans-serif;
+}
+
+.nav_links li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 28px;
+  font-weight: 500;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav_links li a:hover {
+  background-color: blue;
+  border-radius: 50px;
+  padding: 5px;
+  color: white;
+}
+
+#btn1 {
+  position: relative;
+  top: 0.9vh;
+  margin-top: 10px;
+  margin-right: 15px;
+  border-radius: 25px;
+  background: rgb(8, 149, 243);
+  color: white;
+  font-size: 20px;
+  padding: 9px 25px;
+  font-size: 1.2rem;
+  font-family: "Im Fell English SC", sans-serif;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+}
+
+#btn1:hover {
+  background-color: blue;
+}
+
+/* Navbar end */
+
+/* Frontpage Start */
+
+.front-cont {
+  position: relative;
+  height: 720px; 
+  background: black;
+}
+
+.front-text {
+  background: black;
+}
+.front-text h1 {
+  position: absolute;
+  top: 12vh;
+  left: 6vw;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 2.5vw;
+}
+
+.frontlogo {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  z-index: 0;
+}
+
+.imagine {
+  transition: all 1s ease 0s;
+}
+
+.imagine:hover {
+  color: gold;
+}
+
+#btn2 {
+  position: absolute;
+  color: black;
+  background: white;
+  z-index: 0;
+  border-radius: 20px;
+  left: 80%;
+  top: 70%;
+  padding: 10px 10px 10px 10px;
+  font-family: "Im Fell English SC", sans-serif;
+  font-size: 1.5vw;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+}
+
+#btn2:hover {
+  background: green;
+  color: white;
+}
+
+/* Frontpage end */
+
+/* Price action start */
+
+.price-action {
+  position: relative;
+  width: 100%;
+  height: 860px;
+}
+
+#tech {
+  position: absolute;
+  color: black;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5vw;
+  font-weight: 900;
+  top: 90px;
+  left: 120px;
+}
+
+.tech-desc {
+  position: absolute;
+  background: none;
+  font-size: 1.5vw;
+  font-weight: 600;
+  height:
+  font-family: "Ubuntu", sans-serif;
+  top: 260px;
+  left: 120px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  box-shadow: 5px 5px 10px;
+  display: inline-block;
+  width: 650px;
+  height: 230px;
+}
+
+.trend {
+  position: absolute;
+  width: 35vw;
+  height: 35vh;
+  top: 200px;
+  left: 830px;
+}
+
+#btn3 {
+  font-size: 1.5vw;
+  background-color:rgb(9, 185, 89);
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  font-family: "Im Fell English SC", sans-serif;
+  transition: all 1s ease 0s;
+  position: absolute;
+  left: 1600px;
+  top: 550px;
+}
+
+#btn3:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* Price Action End */
+
+/* Candlestick Start */
+.candles {
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 800px;
+}
+
+
+#candle-title {
+  position: absolute;
+  color: white;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3vw;
+  top: 120px;
+  left: 120px;
+}
+
+.candle-desc {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3vw;
+  top: 350px;
+  left: 120px;
+  width: 700px;
+}
+
+.candledia {
+  position: absolute;
+  display: inline-block;
+  width: 900px;
+  height: 300px;
+  top: 350px;
+  left: 850px;
+}
+
+.green {
+  display: inline-block;
+  position: absolute;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3vw;
+  top: 240px;
+  left: 0px;
+  width: 700px;
+  color: green;
+}
+
+.red {
+  display: inline-block;
+  position: absolute;
+  background: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3vw;
+  top: 275px;
+  left: 0px;
+  width: 700px;
+  color: red;
+}
+
+
+#btn4 {
+  position: absolute;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  background: white;
+  font-family: "Im Fell English SC", sans-serif;
+  font-size: 1.5vw;  
+  top: 700px;
+  left: 1600px;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+}
+
+#btn4:hover {
+  color: white;
+  background:blue
+}
